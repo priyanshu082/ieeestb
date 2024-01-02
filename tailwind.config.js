@@ -17,8 +17,12 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: '#001f3f', // Navy Blue
+        primary: '#e8a633', // Navy Blue
         secondary: '#ff6f61', // Coral
+        text:{
+        primary:"#000000",
+          secondary:"#000000"
+        },
       },
       screens: {
         'sm': '640px',

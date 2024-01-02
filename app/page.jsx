@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-primary h-[1000px] text-text-secondary text-[60px]' >
       home
     </div>
   )

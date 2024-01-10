@@ -1,9 +1,17 @@
-import Image from 'next/image'
+'use client'
+import About from '@/Components/Feed/About'
+import IEEEClubs from '@/Components/Feed/IEEEClubs'
+import Message from '@/Components/Feed/Message'
+import Mission from '@/Components/Feed/Mission'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <div className='bg-primary h-[1000px] text-text-secondary' >
-      home
-    </div>
+    <motion.div className='h-[1000px] py-[30px] flex flex-col' >
+      <About/>
+      <Mission/>
+      <Message/>
+      <IEEEClubs/>
+    </motion.div>
   )
 }

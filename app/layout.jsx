@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <meta property="image" content={metadata.image} />
     </Head>
     <body className="w-[100%] bg-primary">
-      <div className="max-w-[80%] mx-[10%]  md:mx-[10%] lg:mx-[10%]">
+      <div className="text-tertiary max-w-[80%] mx-[10%]  md:mx-[10%] lg:mx-[10%]">
     <Navbar/>
       {children}
       </div>

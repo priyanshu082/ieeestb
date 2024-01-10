@@ -29,7 +29,7 @@ const Navbar = () => {
       </Link>
 
 
-      <motion.div className="hidden md:flex flex-row w-8/12 justify-end pt-[5px]">
+      <motion.div className="hidden md:flex flex-row lg:w-6/12 w-8/12 justify-end pt-[5px]">
         {navBottom.map((items, index) => (
           <Link
           onClick={()=>setActive(items.name)}

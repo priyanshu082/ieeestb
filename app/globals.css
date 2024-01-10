@@ -79,3 +79,42 @@
       #000000
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
+  .shadow-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .shadow-img {
+    background-color: hsla(43, 20%, 93%, 0.784);
+    margin: 0 auto;
+    border-radius: 50%;
+    filter: blur(15px);
+    animation: shadow 2s infinite alternate;
+  }
+
+  .floating-img {
+    margin: 0 auto;
+    animation: floaty 2s infinite alternate;
+  }
+
+  @keyframes floaty {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  
+  @keyframes shadow {
+    0% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(.85, .85);
+    }
+  }  
+  
+  
+  

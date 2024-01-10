@@ -18,7 +18,7 @@ const Navbar = () => {
     <motion.div
        initial="hidden"
        animate="show"
-       variants={fadeIn('left', 'spring', 0.5, 2)}
+       variants={fadeIn('left', 'spring', 0.3, 2)}
       className="  flex flex-row justify-between items-center pt-[20px]" >
 
       <Link 
@@ -29,14 +29,14 @@ const Navbar = () => {
       </Link>
 
 
-      <motion.div className="hidden md:flex flex-row lg:w-6/12 w-8/12 justify-end pt-[5px]">
+      <motion.div className="hidden md:flex flex-row xl:w-6/12 lg:w-7/12 w-8/12 justify-end pt-[5px]">
         {navBottom.map((items, index) => (
           <Link
           onClick={()=>setActive(items.name)}
            href={items.link} key={index} 
            className={`${active===items.name ? "text-white scale-125" : "text-secondary"} button flex flex-col justify-normal items-center` }>
             {items.name}
-            <div className="transition-line" />
+            <div className="transition-line"/>
           </Link>
         ))}
       </motion.div>

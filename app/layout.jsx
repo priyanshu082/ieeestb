@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
       <meta name="description" content={metadata.description} />
       <meta property="image" content={metadata.image} />
     </Head>
-    <body className=" bg-primary">
-      <div className="  mx-[5%] md:mx-[10%] lg:mx-[10%] xl:max-w-[1300px]">
+    <body className=" bg-primary mx-[5%] md:mx-[5%] lg:mx-[5%]">
+     
     <Navbar/>
       {children}
-      </div>
+    
       </body>
   </html>
   )

@@ -11,11 +11,11 @@ const About = () => {
     <motion.div
       variants={textVariant(0.5)}
       className='flex flex-col lg:flex-row justify-between mt-[30px]'>
+        
       <div className='flex flex-col flex-1'>
-
-        <div className=' border-[2px] border-secondary rounded-3xl pl-[10px] max-w-[270px] '>
-          <span className='text-[40px] text-white-100 font-extrabold font-poppins '>About</span>
-          <span className='text-[40px] text-[#915eff] font-extrabold'>  IEEE</span>
+        <div className=' border-[2px] border-secondary text-[30px] md:text-[40px] rounded-3xl px-[10px] max-w-[210px] md:pl-[10px] md:max-w-[270px] '>
+          <span className=' text-white-100 font-extrabold font-poppins '>About</span>
+          <span className=' text-[#915eff] font-extrabold'>  IEEE</span>
           <BlinkingCursor />
         </div>
 
@@ -36,7 +36,7 @@ const About = () => {
 
       <div className='shadow-container flex flex-1 my-[auto] '>
         <Image className='floating-img' src={ghost} height={400} width={400} />
-        <div className='shadow-img sm:w-[100px] md:w-[170px] lg:w-[210px] h-[20px]'></div>
+        <div className='shadow-img w-[210px]  h-[20px]'></div>
       </div>
     </motion.div>
   )

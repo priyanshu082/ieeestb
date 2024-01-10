@@ -5,13 +5,13 @@ import { navTop, navBottom } from "./data";
 import { motion } from "framer-motion";
 import ieee_logo from './nav-img/ieee mb white png.png'
 import Image from "next/image";
-import { fadeIn, slideDown } from "@/utils/motion";
+import { fadeIn } from "@/utils/motion";
 import { useState } from "react";
 import Pop from "./Pop";
 
 const Navbar = () => {
 
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
   const [active ,setActive]=useState("HOME")
 
   return (

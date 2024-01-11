@@ -1,6 +1,7 @@
 import './globals.css'
 import Head from 'next/head'
 import Navbar from '@/Components/Navbar/Navbar'
+import Footer from '@/Components/Footer/Footer'
 
 
 export const metadata = {
@@ -17,11 +18,11 @@ export default function RootLayout({ children }) {
       <meta name="description" content={metadata.description} />
       <meta property="image" content={metadata.image} />
     </Head>
-    <body className=" bg-primary mx-[5%] md:mx-[5%] lg:mx-[5%]">
+    <body className=" bg-primary ml-[5%] mr-[3%] lg:ml-[5%] lg:mr-[-5%]">
      
     <Navbar/>
       {children}
-    
+    <Footer/>
       </body>
   </html>
   )

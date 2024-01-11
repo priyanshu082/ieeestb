@@ -12,7 +12,7 @@ export default function Home() {
       <div>
       <IEEEAMU/>
       </div>
-      <div>
+      <div className=''>
       <About/>
       <Mission/>
       <Message/>

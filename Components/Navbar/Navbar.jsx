@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link";
-import { navTop, navBottom } from "./data";
+import { navBottom } from "./data";
 import { motion } from "framer-motion";
 import ieee_logo from './nav-img/ieee mb white png.png'
 import Image from "next/image";
@@ -19,7 +19,7 @@ const Navbar = () => {
        initial="hidden"
        animate="show"
        variants={fadeIn('left', 'spring', 0.3, 2)}
-      className="  flex flex-row justify-between items-center pt-[20px]" >
+      className=" flex flex-row justify-between items-center pt-[20px]" >
 
       <Link 
       onClick={()=>setActive("HOME")}

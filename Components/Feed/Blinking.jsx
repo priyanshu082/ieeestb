@@ -6,7 +6,7 @@ const BlinkingCursor = () => {
     <motion.span
       animate={{ opacity: 0 }}
       transition={{ repeat: Infinity, duration: 0.8, repeatType: 'reverse' }}
-      className="text-[30px] md:text-[45px] text-white-100 font-extrabold font-poppins"
+      className="text-[30px] md:text-35px] text-white-100 font-extrabold font-poppins"
     >
       .
     </motion.span>

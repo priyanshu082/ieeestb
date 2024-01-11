@@ -7,7 +7,7 @@ import BlinkingCursor from './Blinking'
 const Mission = () => {
   return (
     <motion.div 
-    variants={textVariant(0.5)}
+    variants={textVariant(1.5)}
     className='flex flex-col lg:flex-row justify-start mt-[30px] font-poppins'
     >
       <div className='flex flex-1 flex-col '>
@@ -16,7 +16,7 @@ const Mission = () => {
           <span className=' text-[#915eff] font-extrabold'> & Vision</span>
           <BlinkingCursor />
         </div>
-        <div className='text-white flex flex-col gap-4 mt-[40px]'>
+        <div className='text-white flex flex-col gap-4 mt-[20px] pl-[10px]'>
       <p>
       A network of undergraduates volunteering to partner with local organizations and underserved communities to make the most of technology for sustainable development.
       </p>

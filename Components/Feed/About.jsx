@@ -9,8 +9,8 @@ import  SectionWrapper  from '../../HOC/SectionWrapper'
 const About = () => {
   return (
     <motion.div
-      variants={textVariant(0.5)}
-      className='flex flex-col lg:flex-row justify-between mt-[30px]'>
+      variants={textVariant(1)}
+      className='flex flex-col lg:flex-row justify-between items-center mt-[30px]'>
         
       <div className='flex flex-col flex-1'>
         <div className=' border-[2px] border-secondary text-[30px] md:text-[40px] rounded-3xl px-[10px] max-w-[210px] md:pl-[10px] md:max-w-[270px] '>
@@ -19,7 +19,7 @@ const About = () => {
           <BlinkingCursor />
         </div>
 
-        <div className='text-white flex flex-col gap-3 pt-[20px] pl-[10px] font-poppins'>
+        <div className='text-white flex flex-col gap-3 mt-[20px] pl-[10px] font-poppins'>
         <p>
           IEEE – Institute of Electrical and Electronics Engineers, as defined by the official website ieee.org is the professional home for the engineering and technology community worldwide.
         </p>
@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
 
-      <div className='shadow-container flex flex-1 my-[auto] '>
+      <div className='shadow-container flex flex-1 flex-col lg:mt-[60px] my-[auto] '>
         <Image className='floating-img' src={ghost} height={400} width={400} />
         <div className='shadow-img w-[210px]  h-[20px]'></div>
       </div>

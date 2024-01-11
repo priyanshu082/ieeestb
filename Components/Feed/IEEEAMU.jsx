@@ -7,12 +7,15 @@ const IEEEAMU = () => {
   return (
     <motion.div 
     variants={textVariant(1)}
-    className=" flex flex-1 justify-center items-center">
-    <motion.div className='max-w-[800px] rounded-[20px] '>
-      <div className='bg-primary font-bold text-[50px] md:text-[60px] text-white rounded-2xl px-[30px] flex justify-center items-center font-poppins'>
-    IEEE STB&nbsp;<span className='text-[#915eff]'>AMU</span>
+    className=" flex flex-1 flex-col items-center">
+  
+      <div className='bg-primary font-bold text-[45px] md:text-[50px] lg:text-[60px] text-white font-poppins'>
+      IEEE STB&nbsp;<span className='text-[#915eff]'>AMU</span>
       </div>
-    </motion.div>
+      <div className='text-secondary font-poppins text-[12px] md:text-[13px] lg:text-[16px] mt-[-12px] flex flex-1 font-bold'>
+        IEEE STUDENT BRANCH ALIGARH MUSLIM UNIVERSITY
+      </div>
+  
   </motion.div>
   )
 }

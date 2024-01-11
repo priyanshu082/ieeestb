@@ -13,7 +13,7 @@ const About = () => {
       className='flex flex-col lg:flex-row justify-between items-center mt-[30px]'>
         
       <div className='flex flex-col flex-1'>
-        <div className=' border-[2px] border-secondary text-[30px] md:text-[40px] rounded-3xl px-[10px] max-w-[210px] md:pl-[10px] md:max-w-[270px] '>
+        <div className=' violet-gradient text-[30px] md:text-[40px] w-fit rounded-3xl pl-[10px] pr-[20px] md:pl-[10px]'>
           <span className=' text-white-100 font-extrabold font-poppins '>About</span>
           <span className=' text-[#915eff] font-extrabold'>  IEEE</span>
           <BlinkingCursor />

@@ -8,14 +8,13 @@ import SectionWrapper from '../../HOC/SectionWrapper'
 const Message = () => {
   return (
     <motion.div
-      variants={textVariant(1.5)}
-      className='flex flex-col lg:flex-row items-center mt-[30px]'>
+      variants={textVariant(1)}
+      className='flex flex-col lg:flex-row items-center mt-[30px] font-poppins'>
 
       <div className='flex flex-col flex-1'>
-        <div className=' border-[2px] border-secondary text-[15px] md:text-[20px] rounded-2xl max-w-[450px] md:max-w-[600px] lg:max-w-[600px] px-[10px] py-[3px] md:pl-[10px] '>
+        <div className=' violet-gradient text-[15px] md:text-[20px] rounded-2xl w-fit pl-[10px] pr-[20px] py-[3px] md:pl-[10px] '>
           <span className=' text-white-100 font-extrabold font-poppins '>MESSAGE FROM BRANCH COUNSELLOR</span>
           <span className=' text-[#915eff] font-extrabold'>  Mr. Mohd. Zaid</span>
-        
         </div>
 
         <div className='text-white flex flex-col mt-[20px] gap-4 pl-[10px] font-poppins'>
@@ -32,7 +31,7 @@ const Message = () => {
       </div>
 
       {/* content and photo */}
-      <div className=' flex flex-1 mt-[30px] lg:mt-[60px] '>
+      <div className=' flex flex-1 mt-[30px] lg:mt-[20px] '>
         <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={350} width={350} />
       </div>
     </motion.div>

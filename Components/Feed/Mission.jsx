@@ -8,10 +8,10 @@ const Mission = () => {
   return (
     <motion.div 
     variants={textVariant(1.5)}
-    className='flex flex-col lg:flex-row justify-start mt-[30px] font-poppins'
-    >
-      <div className='flex flex-1 flex-col '>
-       <div className=' border-[2px] border-secondary text-[30px] md:text-[40px] rounded-3xl px-[10px] max-w-[300px] md:pl-[10px] md:max-w-[400px] '>
+    className='flex flex-col lg:flex-row justify-start mt-[30px] font-poppins'>
+
+      <div className='flex flex-1 flex-col'>
+       <div className=' violet-gradient w-fit text-[30px] md:text-[40px] rounded-3xl pl-[10px] pr-[20px]  '>
           <span className=' text-white-100 font-extrabold font-poppins '>Mission</span>
           <span className=' text-[#915eff] font-extrabold'> & Vision</span>
           <BlinkingCursor />

@@ -2,16 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import clubs from './clubsData'
 import ClubsCard from './ClubsCard'
-import  SectionWrapper  from '../../HOC/SectionWrapper'
+
 import { staggerContainer, textVariant,fadeIn } from '@/utils/motion'
 
 
 const IEEEClubs = () => {
   return (
-    <motion.div
-    variants={staggerContainer(clubs.length,1)}
-    
-    className='flex flex-col flex-1 mt-[30px]'>
+    <motion.div className='flex flex-col flex-1 mt-[30px]'>
       {clubs.map((items,index)=>(
         <motion.div 
         key={index}

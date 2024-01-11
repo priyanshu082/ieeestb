@@ -32,7 +32,7 @@ const Message = () => {
 
       {/* content and photo */}
       <div className=' flex flex-1 mt-[30px] lg:mt-[20px] '>
-        <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={350} width={350} />
+        <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={300} width={300} />
       </div>
     </motion.div>
   )

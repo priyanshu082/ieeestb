@@ -3,7 +3,7 @@ import { AnimatePresence,motion } from 'framer-motion'
 import clubs from './clubsData'
 import ClubsCard from './ClubsCard'
 import  SectionWrapper  from '../../HOC/SectionWrapper'
-import { slideIn, textVariant } from '@/utils/motion'
+import { textVariant } from '@/utils/motion'
 
 
 const IEEEClubs = () => {
@@ -11,8 +11,7 @@ const IEEEClubs = () => {
     
     <motion.div
     variants={textVariant()}
-    className='flex flex-row flex-1'
-    >
+    className='flex flex-col flex-1 mt-[30px]'>
       {clubs.map((items,index)=>(
        <ClubsCard key={index} index ={index} club={items}/>
       ))}

@@ -8,11 +8,11 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <motion.div className=' mt-[50px] flex flex-col justify-center' >
+    <motion.div className=' mt-[50px]' >
       <div>
       <IEEEAMU/>
       </div>
-      <div className='flex flex-col gap-[100px]'>
+      <div className=' gap-[100px]'>
       <About/>
       <Mission/>
       <Message/>

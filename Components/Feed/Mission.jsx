@@ -8,10 +8,10 @@ const Mission = () => {
   return (
     <motion.div 
     variants={textVariant(1)}
-    className='flex flex-col lg:flex-row justify-start mt-[30px] font-poppins'>
+    className='flex flex-col mt-[30px] font-poppins'>
 
-      <div className='flex flex-1 flex-col'>
-       <div className=' violet-gradient w-fit text-[30px] md:text-[40px] rounded-3xl pl-[10px] pr-[20px]  '>
+      
+       <div className=' violet-gradient w-fit text-[30px] md:text-[40px] pl-[10px] pr-[15px] rounded-3xl '>
           <span className=' text-white-100 font-extrabold font-poppins '>Mission</span>
           <span className=' text-[#915eff] font-extrabold'> & Vision</span>
           <BlinkingCursor />
@@ -24,10 +24,6 @@ const Mission = () => {
       Helping underserved local communities to benefit from sustainable technological advances.
       </p>
         </div>
-      </div>
-      <div>
-
-      </div>
     </motion.div>
   )
 }

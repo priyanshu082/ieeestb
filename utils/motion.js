@@ -193,7 +193,7 @@ export const fadeInOut = (delay, duration) => {
 export const slideUp = (delay, duration) => {
     return {
       hidden: {
-        y: 50,
+        y: 150,
         opacity: 0,
       },
       show: {
@@ -213,7 +213,7 @@ export const slideUp = (delay, duration) => {
   export const slideDown = (delay, duration) => {
     return {
       hidden: {
-        y: -50,
+        y: -150,
         opacity: 0,
       },
       show: {

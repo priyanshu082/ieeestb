@@ -3,12 +3,12 @@ import { motion } from 'framer-motion'
 import clubs from './clubsData'
 import ClubsCard from './ClubsCard'
 
-import { staggerContainer, textVariant,fadeIn } from '@/utils/motion'
+import { fadeIn } from '@/utils/motion'
 
 
 const IEEEClubs = () => {
   return (
-    <motion.div className='flex flex-col flex-1 mt-[30px]'>
+    <motion.div className='flex flex-col mt-[30px]'>
       {clubs.map((items,index)=>(
         <motion.div 
         key={index}

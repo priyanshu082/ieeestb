@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { textVariant } from '@/utils/motion'
+import { slideDown, textVariant } from '@/utils/motion'
 import Image from 'next/image'
 import ZaidSirPik from './img/Zaid-sir.png'
 import SectionWrapper from '../../HOC/SectionWrapper'
@@ -9,10 +9,10 @@ const Message = () => {
   return (
     <motion.div
       variants={textVariant(1)}
-      className='flex flex-col lg:flex-row items-center mt-[30px] font-poppins'>
+      className='flex flex-col lg:flex-row mt-[30px] font-poppins'>
 
-      <div className='flex flex-col flex-1'>
-        <div className=' violet-gradient text-[15px] md:text-[20px] rounded-2xl w-fit pl-[10px] pr-[20px] py-[3px] md:pl-[10px] '>
+      <div className=' lg:w-7/12'>
+        <div className=' violet-gradient text-[15px] md:text-[20px] lg:text-[27px] rounded-2xl w-fit pl-[10px] pr-[20px] py-[3px] md:pl-[10px] '>
           <span className=' text-white-100 font-extrabold font-poppins '>MESSAGE FROM BRANCH COUNSELLOR</span>
           <span className=' text-[#915eff] font-extrabold'>  Mr. Mohd. Zaid</span>
         </div>
@@ -31,9 +31,11 @@ const Message = () => {
       </div>
 
       {/* content and photo */}
-      <div className=' flex flex-1 mt-[30px] lg:mt-[20px] '>
+      <motion.div 
+      variants={slideDown(1,1)}
+      className='flex flex-1 flex-col mt-[40px] lg:mt-[20px] '>
         <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={300} width={300} />
-      </div>
+      </motion.div>
     </motion.div>
   )
 }

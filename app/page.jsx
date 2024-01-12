@@ -12,7 +12,7 @@ export default function Home() {
       <div>
       <IEEEAMU/>
       </div>
-      <div className=' gap-[100px]'>
+      <div className=' flex flex-col gap-[100px]'>
       <About/>
       <Mission/>
       <Message/>

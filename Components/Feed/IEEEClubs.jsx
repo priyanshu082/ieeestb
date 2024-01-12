@@ -8,7 +8,7 @@ import { fadeIn } from '@/utils/motion'
 
 const IEEEClubs = () => {
   return (
-    <motion.div className='flex flex-col mt-[30px]'>
+    <motion.div className='flex flex-col'>
       {clubs.map((items,index)=>(
         <motion.div 
         key={index}

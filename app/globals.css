@@ -87,7 +87,6 @@
   
   .shadow-img {
     background-color: hsla(43, 20%, 93%, 0.784);
-    
     border-radius: 50%;
     filter: blur(15px);
     animation: shadow 1.7s infinite alternate;

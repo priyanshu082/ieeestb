@@ -8,7 +8,7 @@ const Mission = () => {
   return (
     <motion.div 
     variants={textVariant(1)}
-    className='flex flex-col mt-[30px] font-poppins'>
+    className='flex flex-col font-poppins'>
 
       
        <div className=' violet-gradient w-fit text-[30px] md:text-[40px] pl-[10px] pr-[15px] rounded-3xl '>

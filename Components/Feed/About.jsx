@@ -10,7 +10,7 @@ const About = () => {
   return (
     <motion.div
       variants={textVariant(1)}
-      className='flex flex-col lg:flex-row mt-[30px] font-poppins'>
+      className='flex flex-col lg:flex-row font-poppins'>
 
       <div className=' lg:w-7/12'>
         <div className=' violet-gradient text-[30px] md:text-[40px] w-fit rounded-3xl pl-[10px] pr-[20px] md:pl-[10px]'>
@@ -36,7 +36,7 @@ const About = () => {
 
       <motion.div
         variants={slideUp(1.5, 1)}
-        className='shadow-container flex flex-1 flex-col mt-[20px]'>
+        className='shadow-container flex flex-1 flex-col pt-[10px]'>
         <Image className='floating-img my-[0px] mx-[auto]' src={ghost} height={400} width={400} />
         <div className='shadow-img my-[0px] mx-[auto] w-[210px] h-[20px]'></div>
       </motion.div>

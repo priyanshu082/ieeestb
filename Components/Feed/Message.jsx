@@ -9,7 +9,7 @@ const Message = () => {
   return (
     <motion.div
       variants={textVariant(1)}
-      className='flex flex-col lg:flex-row mt-[30px] font-poppins'>
+      className='flex flex-col lg:flex-row font-poppins'>
 
       <div className=' lg:w-7/12'>
         <div className=' violet-gradient text-[15px] md:text-[20px] lg:text-[27px] rounded-2xl w-fit pl-[10px] pr-[20px] py-[3px] md:pl-[10px] '>
@@ -34,7 +34,7 @@ const Message = () => {
       <motion.div 
       variants={slideDown(1,1)}
       className='flex flex-1 flex-col mt-[40px] lg:mt-[20px] '>
-        <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={300} width={300} />
+        <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={330} width={330} />
       </motion.div>
     </motion.div>
   )

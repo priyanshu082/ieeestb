@@ -1,8 +1,13 @@
+'use client'
 import React from 'react'
+import { motion } from 'framer-motion'
+import Team from '@/Components/TEAM/Team'
 
 const page = () => {
   return (
-    <div>team</div>
+    <motion.div className=' min-h-[1000px]'>
+      <Team/>
+    </motion.div>
   )
 }
 

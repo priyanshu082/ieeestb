@@ -37,14 +37,14 @@ import twitter from './img/twitter.svg'
 
 export const handles=[
     {
-        icon:youtube,
-        link:'https://www.youtube.com/@ieeeamu720/featured',
-        name:'Youtube',
-    },
-    {
         icon:instagram,
         link:'https://www.instagram.com/ieeeamu/',
         name:'Instagram',
+    },
+    {
+        icon:youtube,
+        link:'https://www.youtube.com/@ieeeamu720/featured',
+        name:'Youtube',
     },
     {
         icon:linkedin,

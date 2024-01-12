@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { jello, lightSpeedIn, textVariant,shake, slideIn } from '@/utils/motion'
 import TeamCard from './TeamCard'
+import { data } from './ieeestbmembers'
 
 const Team = () => {
   return (
@@ -22,8 +23,11 @@ const Team = () => {
         IEEE STUDENT BRANCH ALIGARH MUSLIM UNIVERSITY
       </div>
   </motion.div>
- 
-    <TeamCard/>
+    <div className='flex flex-row flex-wrap'>
+   {data.map((data,index)=>(
+    <TeamCard key={index} index={index} data={data}/>
+   ))}
+    </div>
     </div>
 
   )

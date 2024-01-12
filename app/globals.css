@@ -128,8 +128,8 @@
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #000000 5.9%, #bf61ff 98.5%);
+  background: -webkit-linear-gradient(-90.13deg, #090909 5.9%, #bf61ff 98.5%);
 }
 
 .orange-text-gradient {
@@ -220,3 +220,9 @@
   background: var(--black-gradient);
 }
 
+.team-card{
+  /* transform ease-out duration-500 rounded-[60px] */
+  transform: ease-in-out;
+  transition-duration: 500ms;
+  border-radius: 60px;
+}

@@ -228,6 +228,25 @@ export const slideUp = (delay, duration) => {
       },
     };
   };
+
+  export const delay = (delay, duration) => {
+    return {
+      hidden: {
+        y: 0,
+        opacity: 0,
+      },
+      show: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "tween",
+          delay: delay,
+          duration: duration,
+          ease: "easeOut",
+        },
+      },
+    };
+  };
   
   // Color Change
   export const colorChange = (fromColor, toColor, duration) => {

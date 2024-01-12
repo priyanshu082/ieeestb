@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
       <meta name="description" content={metadata.description} />
       <meta property="image" content={metadata.image} />
     </Head>
-    <body className=" bg-primary ml-[5%] mr-[3%]  lg:mx-[5%]">
+    <body className=" bg-primary ml-[5%] mr-[3%] lg:mx-[5%]">
     <Navbar/>
       {children}
-    <Footer/>
+    {/* <Footer/> */}
       </body>
   </html>
   )

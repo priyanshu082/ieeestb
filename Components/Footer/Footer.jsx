@@ -31,7 +31,7 @@ const Footer = () => {
   <div className='flex flex-row md:mt-0 mt-6'>
 {handles.map((social,index)=>(
   <a key={index} href={social.link} target="_blank" rel="noopener noreferrer">
-  <Image key={index} src={social.icon} alt={social.name}  className={`${index !== handles.length-1 ? "mr-6" : "mr-2"} h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]`}/>
+  <Image key={index} src={social.icon} alt={social.name}  className={`${index !== handles.length-1 ? "mr-6" : "mr-2"} h-[20px] w-[20px] lg:h-[25px] lg:w-[25px] items-center`}/>
   </a>
 ))}
   </div>

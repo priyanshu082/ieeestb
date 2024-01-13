@@ -27,7 +27,7 @@ import faraz from './drive-download-20240113T092147Z-001/PFP - Mohd Faraz Husain
 import arjoo from './drive-download-20240113T092147Z-001/IMG-20231114-WA0028 - Samarth Varshney.jpg'
 import arshee from './drive-download-20240113T092147Z-001/Screenshot_20230914_010029 - 21CHB580 Arshee Mueen - Anaum Khan.jpg'
 import subhani from './drive-download-20240113T092147Z-001/IMG-20221214-WA0005-01-01 - Syed Abde Subhani.jpeg'
-// import kulsum from './drive-download-20240113T092147Z-001/'
+import kulsum from './drive-download-20240113T092147Z-001/kulsum.jpeg'
 import asifAli from './drive-download-20240113T092147Z-001/IMG_20231114_210350 - Asif Ali.jpg'
 import ahmadShaikh from './drive-download-20240113T092147Z-001/IMG_20230913_201622 - Mohammad Ahmad Shaikh.jpg'
 import saad from './drive-download-20240113T092147Z-001/saad - MOHD SAAD.jpeg'
@@ -284,7 +284,7 @@ export const data=[
         LinkedinProfileLink: "NA",
         About:"B.Tech (Electrical Engineering)-2nd year",
         Position: "Co-Coordinator-Memebership Drive",
-        ProfilePicture: ""
+        ProfilePicture: kulsum
        },  
        {
         name: "Asif Ali",

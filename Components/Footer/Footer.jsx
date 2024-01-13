@@ -25,7 +25,7 @@ const Footer = () => {
      
 <div className=' flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-white'>
   <p className='font-poppins font-medium text-[14px] lg:text-[18px] leading-[27px] text-white'>
-  2021 HooBank. All Rights Reserved.
+  2023. All Rights Reserved.
   </p>
 
   <div className='flex flex-row md:mt-0 mt-6'>

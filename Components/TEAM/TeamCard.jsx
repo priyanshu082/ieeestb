@@ -19,11 +19,18 @@ const TeamCard = ({index ,data}) => {
 
       <motion.div className=' team-card bg-tertiary group-hover:rounded-[20px] flex justify-center items-center flex-col p-[20px]'>
 
+    <div className='flex flex-col justify-center items-center gap-5'>
+
         <Image 
-        src={zaidsirpik} 
-        alt='sir' 
-       
-        className='max-h-[170px] max-w-[170px] team-card group-hover:translate-y-[-100px] ' />
+        src={data.ProfilePicture} 
+        alt={data.name} 
+      height={170}
+     width={170}
+        className='team-image team-card group-hover:translate-y-[-100px] ' />
+        <div className='group-hover:hidden text-secondary text-[23px] font-poppins font-bold'>
+        {data.name}
+        </div>
+    </div>
 
         <motion.div 
         initial='hidden'

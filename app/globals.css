@@ -227,3 +227,10 @@
   transition-duration: 500ms;
   border-radius: 60px;
 }
+
+.team-image{
+  object-fit: contain; 
+  aspect-ratio:1/1;
+  /* border-radius: 80px; */
+
+}

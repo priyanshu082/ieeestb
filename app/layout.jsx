@@ -2,6 +2,7 @@ import './globals.css'
 import Head from 'next/head'
 import Navbar from '@/Components/Navbar/Navbar'
 import Footer from '@/Components/Footer/Footer'
+import ScrollToTopButton from '@/Components/ScrollToTop'
 
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
     <body className=" bg-primary ml-[5%] mr-[3%] lg:mx-[5%]">
     <Navbar/>
       {children}
+      <ScrollToTopButton/>
     <Footer/>
       </body>
   </html>

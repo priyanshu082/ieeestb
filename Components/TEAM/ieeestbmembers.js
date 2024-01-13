@@ -1,3 +1,41 @@
+import hasir from './drive-download-20240113T092147Z-001/IMG - Mohammad Hashir 20EEB349.jpg'
+import saquib from './drive-download-20240113T092147Z-001/IMG_7174 - Saquib Kamal 20EEB216.jpeg'
+import Mikayel from './drive-download-20240113T092147Z-001/IMG20230805131106 - Syed Mikayel 20EEB229.jpg'
+import arisha from './drive-download-20240113T092147Z-001/IMG-20231022-WA0097(1) - Arisha Aslam Khan.jpg'
+import ameen from './drive-download-20240113T092147Z-001/IMG_20231114_214315 - Mohd Ameen.jpg'
+import abdullah from './drive-download-20240113T092147Z-001/DSC_5733 - 21EEB146 Mohd Abdullah Khan.jpeg'
+import adnaan from './drive-download-20240113T092147Z-001/Adnaan - Mohd Adnaan.jpeg'
+import abdurRehman from './drive-download-20240113T092147Z-001/MY PIC - Abdurrahman alvi.jpg'
+ import frazeen from './drive-download-20240113T092147Z-001/20231114_231004_814 - Frazeen Fatima.jpg'
+import sahid from './drive-download-20240113T092147Z-001/IMG_20230916_213956 - SHAHID Jabar.jpg'
+import rehan from './drive-download-20240113T092147Z-001/IMG_20230629_095216687_HDR~4 - 21EEB415_Rehan Khan.jpg'
+import saumya from './drive-download-20240113T092147Z-001/IMG-20221212-WA0078 - Saumya Agarwal.jpg'
+import atif from './drive-download-20240113T092147Z-001/IMG_20221227_005044_904 - Md Atif Alam.jpg'
+import nandini from './drive-download-20240113T092147Z-001/IMG_20231114_231503 - Sairatna Varshney.jpg'
+import sarmad from './drive-download-20240113T092147Z-001/IMG-20230915-WA0027 - Sarmad Nabi.jpg'
+import maria from './drive-download-20240113T092147Z-001/Maria Rahmani - Rimsha Saleem.jpg'
+import aliUl from './drive-download-20240113T092147Z-001/IMG-20230713-WA0018 - Syed Ali ul Hasan.jpg'
+import saiqa from './drive-download-20240113T092147Z-001/IMG_20230914_015743_382 - Saiqa Nafees.jpg'
+import anaum from './drive-download-20240113T092147Z-001/anaum_khan_vRjsrjs - Anaum Khan.jpg'
+// import danish from './drive-download-20240113T092147Z-001/IEEE - MD DANISH.pdf'
+import azhan from './drive-download-20240113T092147Z-001/20230815_121416 - 21CEB641 MOHAMMAD AZHAN.jpg'
+import safia from './drive-download-20240113T092147Z-001/WhatsApp Image 2023-09-17 at 10.58.05 PM (1) - Safia Ahmad.jpeg'
+import ankush from './drive-download-20240113T092147Z-001/Screenshot_2023-05-27-15-27-05-02_99c04817c0de5652397fc8b56c3b3817.v4 - 21EEB663 Ankush Babu.jpg'
+import shaique from './drive-download-20240113T092147Z-001/Shaikh Mohd Shaique - 21EVB122_SHAIKH MOHD SHAIQUE.jpg'
+import mariam from './drive-download-20240113T092147Z-001/IMG-20230815-WA0078 - Mariam Malik.jpg'
+import faraz from './drive-download-20240113T092147Z-001/PFP - Mohd Faraz Husain.jpg'
+import arjoo from './drive-download-20240113T092147Z-001/IMG-20231114-WA0028 - Samarth Varshney.jpg'
+import arshee from './drive-download-20240113T092147Z-001/Screenshot_20230914_010029 - 21CHB580 Arshee Mueen - Anaum Khan.jpg'
+import subhani from './drive-download-20240113T092147Z-001/IMG-20221214-WA0005-01-01 - Syed Abde Subhani.jpeg'
+// import kulsum from './drive-download-20240113T092147Z-001/'
+import asifAli from './drive-download-20240113T092147Z-001/IMG_20231114_210350 - Asif Ali.jpg'
+import ahmadShaikh from './drive-download-20240113T092147Z-001/IMG_20230913_201622 - Mohammad Ahmad Shaikh.jpg'
+import saad from './drive-download-20240113T092147Z-001/saad - MOHD SAAD.jpeg'
+import shamshad from './drive-download-20240113T092147Z-001/IMG_5148 - Saeem Shamshad.jpeg'
+import PriyanshuSingh from './drive-download-20240113T092147Z-001/photo_2023-09-14 00.32.52 - Priyanshu singh.jpeg'
+import Rimsha from './drive-download-20240113T092147Z-001/Screenshot_20240102-181532_Instagram - Rimsha Saleem.jpg'
+import haidarAli from './drive-download-20240113T092147Z-001/IMG_20230501_213818 - Haidar Ali Warsi.jpg'
+
 export const data=[
     {
         name :"Mohammad Hashir",
@@ -5,7 +43,7 @@ export const data=[
         LinkedinProfileLink: "https://www.linkedin.com/in/mohammad-hashir-8a466b219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         About:"B.Tech (Electrical Engineering)-4th year",
         Position: "Chairperson",
-        ProfilePicture: "https://drive.google.com/open?id=12AgbbGNTjFjan5oCFDvW4UqSvk9PSwQx"
+        ProfilePicture: hasir
        },
        {
         name: "Saquib Kamal",

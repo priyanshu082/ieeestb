@@ -10,5 +10,4 @@ const page = () => {
     </motion.div>
   )
 }
-
 export default page

@@ -22,9 +22,8 @@ const TeamCard = ({index ,data}) => {
         <Image 
         src={zaidsirpik} 
         alt='sir' 
-        width={170} 
-        height={170} 
-        className='team-card group-hover:translate-y-[-100px] ' />
+       
+        className='max-h-[170px] max-w-[170px] team-card group-hover:translate-y-[-100px] ' />
 
         <motion.div 
         initial='hidden'

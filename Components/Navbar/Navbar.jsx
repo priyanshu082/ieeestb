@@ -12,7 +12,7 @@ import Pop from "./Pop";
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false)
-  const [active ,setActive]=useState("HOME")
+  const [active ,setActive]=useState("")
 
   return (
     <motion.div

@@ -7,7 +7,7 @@ const IEEEAMU = () => {
   return (
     <motion.div 
     variants={textVariant(1)}
-    className=" flex flex-1 flex-col items-center">
+    className=" flex flex-1 flex-col items-center text-center">
   
       <div className='bg-primary font-bold text-[45px] md:text-[50px] lg:text-[60px] text-white font-poppins'>
       IEEE STB&nbsp;<span className='text-[#915eff]'>AMU</span>

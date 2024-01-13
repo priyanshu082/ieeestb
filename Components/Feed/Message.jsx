@@ -8,7 +8,7 @@ import SectionWrapper from '../../HOC/SectionWrapper'
 const Message = () => {
   return (
     <motion.div
-      variants={textVariant(1)}
+      variants={textVariant()}
       className='flex flex-col lg:flex-row font-poppins'>
 
       <div className=' lg:w-7/12'>

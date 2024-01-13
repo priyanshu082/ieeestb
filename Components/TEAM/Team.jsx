@@ -14,16 +14,16 @@ const Team = () => {
     exit='hidden'
     viewport={{ once: true }}
     variants={textVariant()}
-    className=" flex flex-1 flex-col items-center">
+    className="text-center flex flex-1 flex-col items-center">
   
-      <div className='bg-primary font-bold text-[43px] md:text-[43px] lg:text-[53px] text-white font-poppins'>
+      <div className='bg-primary font-bold text-[33px] md:text-[43px] lg:text-[53px] text-white font-poppins'>
       TEAM &nbsp;<span className='text-[#915eff]'>MEMBERS</span>
       </div>
-      <div className='text-secondary font-poppins text-[12px] md:text-[13px] lg:text-[16px] mt-[-12px] flex flex-1 font-bold'>
+      <div className='text-secondary font-poppins text-[10px] md:text-[13px] lg:text-[16px] mt-[-12px] flex flex-1 font-bold'>
         IEEE STUDENT BRANCH ALIGARH MUSLIM UNIVERSITY
       </div>
   </motion.div>
-    <div className='flex flex-row flex-wrap'>
+    <div className='flex flex-row object-contain flex-1/2 flex-wrap'>
    {data.map((data,index)=>(
     <TeamCard key={index} index={index} data={data}/>
    ))}

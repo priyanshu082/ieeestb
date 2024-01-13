@@ -7,7 +7,7 @@ import BlinkingCursor from './Blinking'
 const Mission = () => {
   return (
     <motion.div 
-    variants={textVariant(1)}
+    variants={textVariant()}
     className='flex flex-col font-poppins'>
 
       

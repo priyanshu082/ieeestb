@@ -292,7 +292,7 @@ export const data=[
         emailId: "rimshasaleem.rsk@gmail.com",
         LinkedinProfileLink: "https://www.linkedin.com/in/rimsha-saleem-rs",
         About:"B.Tech (Computer Engineering)-3rd year",
-        Position: "1) Co-Coordinator-Event Conceptualization , 2) Co-Coordinator-Web Development",
+        Position: " Co-Coordinator-Web Development",
         ProfilePicture: "https://drive.google.com/open?id=1jjJrTGlp51uJxHJC5Bdkmdpjprj1wKKZ"
        },
        {

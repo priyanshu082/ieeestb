@@ -130,6 +130,7 @@
   background: "#00cea8";
   background: linear-gradient(90.13deg, #000000 5.9%, #bf61ff 98.5%);
   background: -webkit-linear-gradient(-90.13deg, #090909 5.9%, #bf61ff 98.5%);
+  box-shadow: -2px 2px 5px #bf61ff;
 }
 
 .orange-text-gradient {

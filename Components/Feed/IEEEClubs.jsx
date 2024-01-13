@@ -16,7 +16,7 @@ const IEEEClubs = () => {
         whileInView='show'
         exit='hidden'
         viewport={{ once: true, minTop: 1, maxTop: 1 }}
-        variants={fadeIn("right", "tween", 0.4, 0.8)}>
+        variants={fadeIn(index%2===0 ? "right":"left", "tween", 0.5, 1)}>
           <ClubsCard index ={index} club={items}/>
         </motion.div>
       ))}

@@ -1,9 +1,5 @@
 export const items=[
     {
-        name:"HOME",
-        link:"/",
-    },
-    {
         name:"SITEMAP",
         link:"https://www.ieee.org/sitemap.html",
     },

@@ -9,9 +9,9 @@ import { motion } from 'framer-motion'
 export default function Home() {
   return (
     <motion.div className='mt-[40px]' >
-      <div>
+       <div>
       <IEEEAMU/>
-      </div>
+      </div> 
       <div className='flex flex-col gap-[100px]'>
       <About/>
       <Mission/>

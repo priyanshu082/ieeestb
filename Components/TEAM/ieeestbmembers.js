@@ -38,7 +38,7 @@ import haidarAli from './drive-download-20240113T092147Z-001/IMG_20230501_213818
 // import arham from './drive-download-20240113T092147Z-001'
 
 export const data=[
-    {
+      {
         name :"Mohammad Hashir",
         emailId :"mhashirsiddiqui28@gmail.com",
         LinkedinProfileLink: "https://www.linkedin.com/in/mohammad-hashir-8a466b219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

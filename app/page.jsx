@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <motion.div className=' mt-[40px]' >
+    <motion.div className='mt-[40px]' >
       <div>
       <IEEEAMU/>
       </div>

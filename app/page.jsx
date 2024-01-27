@@ -11,7 +11,7 @@ export default function Home() {
     <motion.div className='mt-[40px]' >
        <div>
       <IEEEAMU/>
-      </div> 
+      </div>  
       <div className='flex flex-col gap-[100px]'>
       <About/>
       <Mission/>

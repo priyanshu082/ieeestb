@@ -1,8 +1,10 @@
+'use client'
+
 import React from 'react'
-import { Tilt } from 'react-tilt'
+// import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
-import { fadeIn, slideDown, delay, textVariant, slideIn, bounce } from '@/utils/motion'
-import zaidsirpik from '../Feed/img/Zaid-sir.png'
+import { fadeIn, delay } from '@/utils/motion'
+// import zaidsirpik from '../Feed/img/Zaid-sir.png'
 import Image from 'next/image'
 import linkedin from '../Footer/img/linkedin.svg'
 

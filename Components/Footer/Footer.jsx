@@ -1,5 +1,6 @@
+'use client'
 import React from 'react'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import { items,handles } from './data'
 import Image from 'next/image'
 import logo from '../Navbar/nav-img/ieee mb white png.png'

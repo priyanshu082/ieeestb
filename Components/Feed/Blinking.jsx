@@ -1,3 +1,4 @@
+'use client'
 // components/BlinkingCursor.jsx
 import { motion } from 'framer-motion';
 

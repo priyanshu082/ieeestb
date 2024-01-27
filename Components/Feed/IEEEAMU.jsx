@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { textVariant } from '@/utils/motion'
 import { motion } from 'framer-motion'

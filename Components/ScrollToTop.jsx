@@ -1,4 +1,3 @@
-// ScrollToTopButton.jsx
 'use client'
 
 import { FaArrowUp } from 'react-icons/fa';

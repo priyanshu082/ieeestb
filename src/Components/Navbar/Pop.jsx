@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { navBottom, navTop } from './data'
 import Link from 'next/link'
-import { slideDown } from '@/utils/motion'
+import { slideDown } from '@/src/utils/motion'
 import dropdown from './nav-img/arrow.svg'
 import Image from 'next/image'
 

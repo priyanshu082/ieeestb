@@ -1,9 +1,9 @@
 'use client'
-import About from '@/Components/Feed/About'
-import IEEEAMU from '@/Components/Feed/IEEEAMU'
-import IEEEClubs from '@/Components/Feed/IEEEClubs'
-import Message from '@/Components/Feed/Message'
-import Mission from '@/Components/Feed/Mission'
+import About from '@/src/Components/Feed/About'
+import IEEEAMU from '@/src/Components/Feed/IEEEAMU'
+import IEEEClubs from '@/src/Components/Feed/IEEEClubs'
+import Message from '@/src/Components/Feed/Message'
+import Mission from '@/src/Components/Feed/Mission'
 import { motion } from 'framer-motion'
 
 export default function Home() {

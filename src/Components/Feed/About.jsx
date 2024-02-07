@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { slideUp, textVariant } from '@/utils/motion'
+import { slideUp, textVariant } from '@/src/utils/motion'
 import Image from 'next/image'
 import ghost from './img/ghost-img (1).png'
 import BlinkingCursor from './Blinking'

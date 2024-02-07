@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { slideDown, textVariant } from '@/utils/motion'
+import { slideDown, textVariant } from '@/src/utils/motion'
 import Image from 'next/image'
 import ZaidSirPik from './img/Zaid-sir.png'
 import SectionWrapper from '../../HOC/SectionWrapper'

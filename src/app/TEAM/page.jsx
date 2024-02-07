@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
-import Team from '@/Components/TEAM/Team'
+import Team from '@/src/Components/TEAM/Team'
 
 const page = () => {
   return (

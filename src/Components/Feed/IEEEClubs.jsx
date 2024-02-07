@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import clubs from './clubsData'
 import ClubsCard from './ClubsCard'
 
-import { fadeIn } from '@/utils/motion'
+import { fadeIn } from '@/src/utils/motion'
 
 
 const IEEEClubs = () => {

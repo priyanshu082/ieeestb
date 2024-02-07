@@ -6,7 +6,7 @@ import Team from '@/Components/TEAM/Team'
 const page = () => {
   return (
     <motion.div className=' min-h-[1000px]'>
-      <Team/>
+      <Team/> 
     </motion.div>
   )
 }

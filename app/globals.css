@@ -116,7 +116,7 @@
   
   
   
-.violet-gradient {
+/* .violet-gradient {
   background: #a587e6;
   background: linear-gradient(-90deg, #a994d8 0%, rgba(4, 3, 4, 0) 100%);
   background: -webkit-linear-gradient(
@@ -124,7 +124,7 @@
     #7753c7 -70%,
     rgba(60, 51, 80, 0) 100%
   );
-}
+} */
 
 .green-pink-gradient {
   background: "#00cea8";

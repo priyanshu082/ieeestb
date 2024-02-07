@@ -6,11 +6,9 @@ import Image from 'next/image'
 import ghost from './img/ghost-img (1).png'
 import BlinkingCursor from './Blinking'
 import SectionWrapper from '../../HOC/SectionWrapper'
-import { data } from '../TEAM/ieeestbmembers'
 
 const About = () => {
 
-  console.log(data.length)
   return (
     <motion.div
       variants={textVariant(1)}

@@ -6,7 +6,7 @@ import ameen from './drive-download-20240113T092147Z-001/IMG_20231114_214315 - M
 import abdullah from './drive-download-20240113T092147Z-001/DSC_5733 - 21EEB146 Mohd Abdullah Khan.jpeg'
 import adnaan from './drive-download-20240113T092147Z-001/Adnaan - Mohd Adnaan.jpeg'
 import abdurRehman from './drive-download-20240113T092147Z-001/MY PIC - Abdurrahman alvi.jpg'
- import frazeen from './drive-download-20240113T092147Z-001/20231114_231004_814 - Frazeen Fatima.jpg'
+import frazeen from './drive-download-20240113T092147Z-001/20231114_231004_814 - Frazeen Fatima.jpg'
 import sahid from './drive-download-20240113T092147Z-001/IMG_20230916_213956 - SHAHID Jabar.jpg'
 import rehan from './drive-download-20240113T092147Z-001/IMG_20230629_095216687_HDR~4 - 21EEB415_Rehan Khan.jpg'
 import saumya from './drive-download-20240113T092147Z-001/IMG-20221212-WA0078 - Saumya Agarwal.jpg'
@@ -23,7 +23,7 @@ import safia from './drive-download-20240113T092147Z-001/WhatsApp Image 2023-09-
 import ankush from './drive-download-20240113T092147Z-001/Screenshot_2023-05-27-15-27-05-02_99c04817c0de5652397fc8b56c3b3817.v4 - 21EEB663 Ankush Babu.jpg'
 import shaique from './drive-download-20240113T092147Z-001/Shaikh Mohd Shaique - 21EVB122_SHAIKH MOHD SHAIQUE.jpg'
 import mariam from './drive-download-20240113T092147Z-001/IMG-20230815-WA0078 - Mariam Malik.jpg'
-import faraz from './drive-download-20240113T092147Z-001/PFP - Mohd Faraz Husain.jpg'
+// import faraz from './drive-download-20240113T092147Z-001/PFP - Mohd Faraz Husain.jpg'
 import arjoo from './drive-download-20240113T092147Z-001/IMG-20231114-WA0028 - Samarth Varshney.jpg'
 import arshee from './drive-download-20240113T092147Z-001/Screenshot_20230914_010029 - 21CHB580 Arshee Mueen - Anaum Khan.jpg'
 import subhani from './drive-download-20240113T092147Z-001/IMG-20221214-WA0005-01-01 - Syed Abde Subhani.jpeg'
@@ -252,7 +252,7 @@ export const data=[
         LinkedinProfileLink: "https://www.linkedin.com/in/mohd-faraz-husain-2740b2201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         About:"B.Tech (Electronics Engineering)-2nd year",
         Position: "1) Co-Coordinator-Design & Animation , 2) Co-Coordinator-Event Conceptualization",
-        ProfilePicture: faraz
+        ProfilePicture: ""
        },
        {
         name: "Arjoo Pathak",

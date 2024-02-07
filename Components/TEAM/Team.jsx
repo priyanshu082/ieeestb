@@ -24,21 +24,26 @@ const Team = () => {
         IEEE STUDENT BRANCH ALIGARH MUSLIM UNIVERSITY
       </div>
   </motion.div>
-  <motion.div 
-   initial='hidden'
-   whileInView='show'
-  variants={textVariant()}
-  className='flex flex-col justify-center items-center mt-[50px]'>
-  <div className='bg-primary text-[#915eff] mb-[-40px] font-bold text-[19px] md:text-[28px] lg:text-[33px]  font-poppins'>
-      DESIGN &  &nbsp;<span className='text-white'>DEVELOPED BY</span>
-      </div>
-    <TeamCard data={data[35]}/>
-  </motion.div>
+
     <div className='flex flex-row object-contain flex-1/2 flex-wrap'>
    {data.map((data,index)=>(
     <TeamCard key={index} index={index} data={data}/>
    ))}
     </div>
+    <motion.div 
+   initial='hidden'
+   whileInView='show'
+  variants={textVariant()}
+  className='flex flex-col justify-center items-center mt-[50px]'>
+    <div className=' w-full flex flex-col justify-center items-center '>
+
+  <div className='bg-primary  text-[#915eff] mb-[-40px] font-bold text-[19px] md:text-[28px] lg:text-[33px]  font-poppins'>
+      DESIGN &  &nbsp;<span className='text-white'>DEVELOPED BY</span>
+      </div>
+    <TeamCard data={data[35]}/>
+   
+    </div>
+  </motion.div>
     </div>
 
   )

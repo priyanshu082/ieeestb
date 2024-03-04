@@ -13,21 +13,20 @@ const TeamCard = ({index ,data}) => {
     whileInView='show'
     viewport={{ once: true, minTop: 0.5, maxTop: 0.75 }} 
     variants={fadeIn('down','tween',index*0.05,1)}
-    className="group w-[430px] lg:w-[400px] h-[250px] mt-[120px] mx-[auto]">
+    className="group mt-[40px] mx-[auto]">
 
-    <motion.div className='team-card green-pink-gradient group-hover:rounded-[20px] p-[2px]'>
+    <motion.div className='team-card group-hover:rounded-[10px] p-[2px]'>
 
-      <motion.div className=' team-card bg-tertiary group-hover:rounded-[20px] flex justify-center items-center flex-col p-[20px]'>
+      <motion.div className=' team-card bg-tertiary group-hover:rounded-[10px] flex justify-center items-center flex-col p-[10px]'>
 
-    <div className='flex flex-col justify-center items-center gap-5'>
-
+    <div className='flex flex-col justify-center items-center'>
         <Image 
-        src={data.ProfilePicture} 
+        src={data.ProfilePicture || '/dummy.jpeg'} 
         alt={data.name} 
-      height={170}
-     width={170}
-        className='team-image team-card group-hover:translate-y-[-100px] ' />
-        <div className='group-hover:hidden text-secondary text-[23px] font-poppins font-bold'>
+      height={250}
+     width={250}
+        className='team-image team-card group-hover:translate-y-[-100px]'/>
+        <div className='group-hover:hidden text-secondary text-[21px] mt-[10px] font-poppins font-semibold'>
         {data.name}
         </div>
     </div>
@@ -43,7 +42,7 @@ const TeamCard = ({index ,data}) => {
         <span className='text-[16px] text-center'>{data.Position}</span>
         <span className='text-[14px] mt-[5px] text-center'>Gmail:-{data.emailId}</span>
         <p className='text-[13px] text-wrap text-center mt-[5px]'>{data.About}</p>
-        <a href={data.LinkedinProfileLink}  target="_blank" rel="noopener noreferrer" className=' cursor-pointer mt-[10px]'>
+        <a href={data.LinkedinProfileLink} target="_blank" rel="noopener noreferrer" className=' cursor-pointer mt-[10px]'>
       <Image src={linkedin} alt="linkedin" width={30} height={30}/>
         </a>
         </motion.div>

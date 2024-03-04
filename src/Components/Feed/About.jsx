@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { slideUp, textVariant } from '@/src/utils/motion'
 import Image from 'next/image'
 import ghost from './img/ghost-img (1).png'
+import logo from '../Navbar/nav-img/ieee mb white png.png'
 import BlinkingCursor from './Blinking'
 import SectionWrapper from '../../HOC/SectionWrapper'
 
@@ -12,7 +13,7 @@ const About = () => {
   return (
     <motion.div
       variants={textVariant(1)}
-      className='flex flex-col lg:flex-row font-poppins'>
+      className='flex flex-col lg:flex-row font-poppins justify-between items-center lg:gap-0 gap-20 mt-[30px] '>
 
       <div className=' lg:w-7/12'>
         <div className=' violet-gradient text-[30px] md:text-[40px] w-fit rounded-3xl pl-[10px] pr-[20px] md:pl-[10px]'>
@@ -38,9 +39,9 @@ const About = () => {
 
       <motion.div
         variants={slideUp(1.5, 1)}
-        className='shadow-container flex flex-1 flex-col pt-[10px]'>
-        <Image className='floating-img my-[0px] mx-[auto]' src={ghost} height={400} width={400} />
-        <div className='shadow-img my-[0px] mx-[auto] w-[210px] h-[20px]'></div>
+        className='shadow-container flex flex-col justify-center px-auto'>
+        <Image className='floating-img' src={logo} height={400} width={400} />
+        <div className='shadow-img w-[100%] ml-[25px] h-[30px] mt-[40px]'></div>
       </motion.div>
     </motion.div>
   )

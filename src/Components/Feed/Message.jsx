@@ -33,7 +33,7 @@ const Message = () => {
 
       {/* content and photo */}
       <motion.div 
-      variants={slideDown(1,1)}
+      variants={textVariant()}
       className='flex flex-1 flex-col mt-[40px] lg:mt-[20px] '>
         <Image className='my-[0px] mx-[auto] rounded-2xl' src={ZaidSirPik} height={330} width={330} />
       </motion.div>

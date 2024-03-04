@@ -15,7 +15,7 @@ const Team = () => {
     exit='hidden'
     viewport={{ once: true }}
     variants={textVariant()}
-    className="text-center flex flex-1 flex-col items-center">
+    className="text-center flex flex-col items-center">
   
       <div className='bg-primary font-bold text-[33px] md:text-[43px] lg:text-[53px] text-white font-poppins'>
       TEAM &nbsp;<span className='text-[#915eff]'>MEMBERS</span>
@@ -25,25 +25,17 @@ const Team = () => {
       </div>
   </motion.div>
 
-    <div className='flex flex-row object-contain flex-1/2 flex-wrap'>
-   {data.map((data,index)=>(
-    <TeamCard key={index} index={index} data={data}/>
-   ))}
-    </div>
-    <motion.div 
-   initial='hidden'
-   whileInView='show'
-  variants={textVariant()}
-  className='flex flex-col justify-center items-center mt-[50px]'>
-    <div className=' w-full flex flex-col justify-center items-center '>
 
-  <div className='bg-primary  text-[#915eff] mb-[-40px] font-bold text-[19px] md:text-[28px] lg:text-[33px]  font-poppins'>
-      DESIGN &  &nbsp;<span className='text-white'>DEVELOPED BY</span>
-      </div>
-    <TeamCard data={data[35]}/>
+  <div className='flex flex-row flex-wrap w-full justify-around mt-[30px]'>
+      
+      {data.map((data,index)=>(
+        <div className='md:w-[28vw] h-[500px] ml-[10px] mt-[30px]'>
+    <TeamCard key={index} index={index} data={data}/>
+   </div>
+   ))}
+  </div>
+
    
-    </div>
-  </motion.div>
     </div>
 
   )

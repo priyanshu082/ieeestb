@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { fadeIn, delay } from '@/src/utils/motion'
+import { fadeIn, delay, textVariant } from '@/src/utils/motion'
 import Image from 'next/image'
 import linkedin from '../Footer/img/linkedin.svg'
 
@@ -12,7 +12,8 @@ const TeamCard = ({index ,data}) => {
     initial='hidden'
     whileInView='show'
     viewport={{ once: true, minTop: 0.5, maxTop: 0.75 }} 
-    variants={fadeIn('down','tween',index*0.05,1)}
+    // variants={fadeIn('down','tween',index*0.05,1)}
+    variants={textVariant()}
     className="group mt-[40px] mx-[auto]">
 
     <motion.div className='team-card group-hover:rounded-[10px] p-[2px]'>

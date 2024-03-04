@@ -18,7 +18,7 @@ const TeamCard = ({index ,data}) => {
 
     <motion.div className='team-card group-hover:rounded-[10px] p-[2px]'>
 
-      <motion.div className=' team-card bg-tertiary group-hover:rounded-[10px] flex justify-center items-center flex-col p-[10px]'>
+      <motion.div className=' team-card  group-hover:rounded-[10px] flex justify-center items-center flex-col p-[10px]'>
 
     <div className='flex flex-col justify-center items-center'>
         <Image 

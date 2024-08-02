@@ -69,7 +69,7 @@ export const data = [
     LinkedinProfileLink: "https://www.linkedin.com/in/rehan-khan-3102a7272",
     About: "B.Tech (Electrical Engineering)-Final year",
     Position: "Treasurer",
-    ProfilePicture: Rehan
+    ProfilePicture: Rehan,
   },
   {
     name: "Syed Ali Ul Hasan",
@@ -177,7 +177,7 @@ export const data = [
     ProfilePicture: arshan,
   },
   {
-    name: "Asna Fatima",
+    name: "Asna Fatimah",
     emailId: "Asnafatimah6@gmail.com",
     LinkedinProfileLink: "",
     About: "B.Tech (Electrical Engineering)-3rd year",

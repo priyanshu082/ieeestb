@@ -186,7 +186,7 @@ export const data=[
        },
        {
         name: "Syed Faheem Ahmad",
-        emailId: "",
+        emailId: "syedfaheemahmad2002@gmail.com",
         LinkedinProfileLink: "",
         About:"B.Tech (Electronics Engineering)-3rd year",
         Position: "Coordinator - Editorial Team",

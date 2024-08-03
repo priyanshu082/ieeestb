@@ -7,14 +7,14 @@ import mariam from "./Photos-2024/IMG-20240524-WA0117 - Mariam Malik.jpg";
 import syedaliulhasan19 from "./Photos-2024/IMG-20240601-WA0022 - Syed Ali Ul Hasan.jpg";
 import abroo from "./Photos-2024/IMG-20240710-WA0003 - Abroo Bashir.jpg";
 import ujjwal from "./Photos-2024/IMG20211207200348 - Ujjwal Varshney.jpg";
-import Atif from "./Photos-2024/IMG_20231007_162652_025 - Md Atif Alam.webp"; ///
+import Atif from "./Photos-2024/IMG_20231007_162652_025 - Md Atif Alam.webp";
 import keshav from "./Photos-2024/IMG_20240720_113348 - Keshav Gupta.png";
 import zaini from "./Photos-2024/IMG_2173 - Zaini Areeb.jpeg";
 import Arham from "./Photos-2024/IMG_2474 - 21MEB503 Mohammad Arham.jpeg";
 import shaikh from "./Photos-2024/IMG_2564 - 21EVB122_SHAIKH MOHD SHAIQUE.JPG";
 import arshan from "./Photos-2024/IMG_4426 - 21CHB558 ARSHAN siddiqui.jpeg";
 import Saeemshamshad from "./Photos-2024/IMG_5148 - Saeem Shamshad - Saeem Shamshad.jpeg";
-import abdullah from "./Photos-2024/IMG_5356 - Abdullah Khan(1).jpeg"; ///
+import abdullah from "./Photos-2024/IMG_5356 - Abdullah Khan(1).jpeg";
 import Rehan from "./Photos-2024/rehan.jpg";
 import safia from "./Photos-2024/safia.png";
 import zaid from "./Photos-2024/Screenshot 2024-08-02 173244 Zaid Khan.jpg";
@@ -141,7 +141,7 @@ export const data = [
     emailId: "abaansiddiqui03@gmail.com",
     LinkedinProfileLink: "",
     About: "B.Tech (Chemical Engineering)-2nd year",
-    Position: "Coordinator - Event Conceptualization",
+    Position: "Co-Coordinator - Event Conceptualization",
     ProfilePicture: abaan,
   },
   {
@@ -149,7 +149,7 @@ export const data = [
     emailId: "syedismailsultan10480@gmail.com",
     LinkedinProfileLink: "",
     About: "B.Tech (Mechanical Engineering)-2nd year",
-    Position: "Coordinator - Event Conceptualization",
+    Position: "Co-Coordinator - Event Conceptualization",
     ProfilePicture: syedismail,
   },
   {

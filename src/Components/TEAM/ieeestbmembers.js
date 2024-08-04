@@ -22,24 +22,24 @@ import syedismail from "./Photos-2024/Screenshot_2024-07-16-14-09-02-22_99c04817
 import saara from "./Photos-2024/Screenshot_20240719_130919_Gallery - Saara Sazid Khan.jpg";
 import nabiha from "./Photos-2024/Snapchat-760149032 - Nabiha Naim(1).jpg";
 
-import yashra from "./Photos-2024\IMG-20210107-WA0001 - Yashra Malik.jpg";
-import zuhair from "./Photos-2024\Zuhair Arif.jpg";
-import mujtaba from "./Photos-2024\MUJTABA - MM SOLUTIONS.jpg";
-import maria from "./Photos-2024\Screenshot_2024-07-19-13-07-27-84_99c04817c0de5652397fc8b56c3b3817 - Rahmani Maria.jpg";
-import syedismail from "./Photos-2024\Screenshot_2024-07-16-14-09-02-22_99c04817c0de5652397fc8b56c3b3817 - Ismail Sultan.jpg";
-import robin from "./Photos-2024\Robin.jpg";
-import vinay from "./Photos-2024\IMG_20240722_165811 - Vinay.jpg";
-import rohit from "./Photos-2024\IMG_20240720_123656 - Rohit Kumar.jpg"; 
-import kulsum from "./Photos-2024\IMG_20240721_163816 - Kulsum Fatima.jpg";
-import syedabde from "./Photos-2024\IMG_6812 - Syed Abde Subhani.jpeg";
-import ayesha from "./Photos-2024\photo_1 - Ayesha Khan.jpg";
-import yusra from "./Photos-2024\IMG-20240729-WA0044 - Yusra Wahab.jpg";
-import muhdadnan from "./Photos-2024\IMG-20240625-WA0029~2 - Muhd Adnan.jpg";
-import mdghalib from "./Photos-2024\IMG_20240627_164242 - Ghalib.jpg";
-import ariba from "./Photos-2024\img stb - Ariba Khan.jpg"; ///
-import avyukt from "./Photos-2024\Avyukt Soni.jpeg";
-import rupesh from "./Photos-2024\WhatsApp Image 2024-07-23 at 12.21.31_ded2b3d5 - Rupesh varshney.jpg"; ///
-import saqlain from "./Photos-2024\saqlain  - Saqlain riyaz.jpg";
+import yashra from "./Photos-2024/IMG-20210107-WA0001 - Yashra Malik.jpg";
+import zuhair from "./Photos-2024/Zuhair Arif.jpg";
+import mujtaba from "./Photos-2024/MUJTABA - MM SOLUTIONS.jpg";
+import maria from "./Photos-2024/Screenshot_2024-07-19-13-07-27-84_99c04817c0de5652397fc8b56c3b3817 - Rahmani Maria.jpg";
+import syedismail1 from "./Photos-2024/Screenshot_2024-07-16-14-09-02-22_99c04817c0de5652397fc8b56c3b3817 - Ismail Sultan.jpg";
+import robin from "./Photos-2024/Robin.jpg";
+import vinay from "./Photos-2024/IMG_20240722_165811 - Vinay.jpg";
+import rohit from "./Photos-2024/IMG_20240720_123656 - Rohit Kumar.jpg"; 
+import kulsum from "./Photos-2024/IMG_20240721_163816 - Kulsum Fatima.jpg";
+import syedabde from "./Photos-2024/IMG_6812 - Syed Abde Subhani.jpeg";
+import ayesha from "./Photos-2024/photo_1 - Ayesha Khan.jpg";
+import yusra from "./Photos-2024/IMG-20240729-WA0044 - Yusra Wahab.jpg";
+import muhdadnan from "./Photos-2024/IMG-20240625-WA0029~2 - Muhd Adnan.jpg";
+import mdghalib from "./Photos-2024/IMG_20240627_164242 - Ghalib.jpg";
+import ariba from "./Photos-2024/img stb - Ariba Khan.jpg"; ///
+import avyukt from "./Photos-2024/Avyukt Soni.jpeg";
+import rupesh from "./Photos-2024/WhatsApp Image 2024-07-23 at 12.21.31_ded2b3d5 - Rupesh varshney.jpg"; ///
+import saqlain from "./Photos-2024/saqlain  - Saqlain riyaz.jpg";
 
 
 
@@ -171,7 +171,7 @@ export const data = [
     LinkedinProfileLink: "",
     About: "B.Tech (Mechanical Engineering)-2nd year",
     Position: "Co-Coordinator - Event Conceptualization",
-    ProfilePicture: syedismail,
+    ProfilePicture: syedismail1,
   },
   {
     name: "Safia Ahmed Khan",

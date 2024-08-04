@@ -29,7 +29,7 @@ import maria from "./Photos-2024/Screenshot_2024-07-19-13-07-27-84_99c04817c0de5
 import syedismail1 from "./Photos-2024/Screenshot_2024-07-16-14-09-02-22_99c04817c0de5652397fc8b56c3b3817 - Ismail Sultan.jpg";
 import robin from "./Photos-2024/Robin.jpg";
 import vinay from "./Photos-2024/IMG_20240722_165811 - Vinay.jpg";
-import rohit from "./Photos-2024/IMG_20240720_123656 - Rohit Kumar.jpg"; 
+import rohit from "./Photos-2024/IMG_20240720_123656 - Rohit Kumar.jpg";
 import kulsum from "./Photos-2024/IMG_20240721_163816 - Kulsum Fatima.jpg";
 import syedabde from "./Photos-2024/IMG_6812 - Syed Abde Subhani.jpeg";
 import ayesha from "./Photos-2024/photo_1 - Ayesha Khan.jpg";
@@ -40,8 +40,6 @@ import ariba from "./Photos-2024/img stb - Ariba Khan.jpg"; ///
 import avyukt from "./Photos-2024/Avyukt Soni.jpeg";
 import rupesh from "./Photos-2024/WhatsApp Image 2024-07-23 at 12.21.31_ded2b3d5 - Rupesh varshney.jpg"; ///
 import saqlain from "./Photos-2024/saqlain  - Saqlain riyaz.jpg";
-
-
 
 export const data = [
   {
@@ -96,7 +94,7 @@ export const data = [
     name: "Syed Ali Ul Hasan",
     emailId: "syedaliulhasan19@gmail.com",
     LinkedinProfileLink: "NA",
-    About: "B.Tech (Mechanical Engineering)-2nd year",
+    About: "B.Tech (Mechanical Engineering)-3rd year",
     Position: "Joint Secretary",
     ProfilePicture: syedaliulhasan19,
   },
@@ -104,7 +102,7 @@ export const data = [
     name: "Mariam Malik",
     emailId: "mariammalik2003@gmail.com",
     LinkedinProfileLink: "NA",
-    About: "B.Tech (Civil Engineering)-2nd year",
+    About: "B.Tech (Civil Engineering)-3rd year",
     Position: "Joint Secretary",
     ProfilePicture: mariam,
   },

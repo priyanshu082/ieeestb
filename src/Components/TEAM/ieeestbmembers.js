@@ -23,10 +23,10 @@ import saara from "./Photos-2024/Screenshot_20240719_130919_Gallery - Saara Sazi
 import nabiha from "./Photos-2024/Snapchat-760149032 - Nabiha Naim(1).jpg";
 
 import yashra from "./Photos-2024/IMG-20210107-WA0001 - Yashra Malik.jpg";
-import zuhair from "./Photos-2024/Zuhair Arif.jpg";
+import zuhair from "./Photos-2024/Zuhair Arif.jpeg";
 import mujtaba from "./Photos-2024/MUJTABA - MM SOLUTIONS.jpg";
 import maria from "./Photos-2024/Screenshot_2024-07-19-13-07-27-84_99c04817c0de5652397fc8b56c3b3817 - Rahmani Maria.jpg";
-import syedismail from "./Photos-2024/Screenshot_2024-07-16-14-09-02-22_99c04817c0de5652397fc8b56c3b3817 - Ismail Sultan.jpg";
+import syedismail1 from "./Photos-2024/Screenshot_2024-07-16-14-09-02-22_99c04817c0de5652397fc8b56c3b3817 - Ismail Sultan.jpg";
 import robin from "./Photos-2024/Robin.jpg";
 import vinay from "./Photos-2024/IMG_20240722_165811 - Vinay.jpg";
 import rohit from "./Photos-2024/IMG_20240720_123656 - Rohit Kumar.jpg"; 
@@ -266,7 +266,7 @@ export const data = [
     LinkedinProfileLink: "",
     About: "B.Tech (Mechanical Engineering)-2nd Year",
     Position: "Co-Coordinator - Design & Animation Team",
-    ProfilePicture: syedismail,
+    ProfilePicture: syedismail1,
   },
   {
     name: "Robin Singh",

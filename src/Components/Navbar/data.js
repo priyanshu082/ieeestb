@@ -42,7 +42,7 @@ const navBottom = [
   },
   {
     name: "RULEBOOK",
-    link: "https://drive.google.com/file/d/1A_Jsif5zkmvpD26UshdfCIr9iErBFhp9/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1cmiM7yoOK0LrZNQaEdBYoJVpYhqjk15z/view?usp=sharing",
     target: "_blank",
   },
 ];

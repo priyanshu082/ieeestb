@@ -42,6 +42,7 @@ const Navbar = () => {
             onClick={() => setActive(items.name)}
             href={items.link}
             key={index}
+            target={items.target}
             className={`${
               active === items.name ? "text-white scale-125" : "text-secondary"
             } button flex flex-col justify-normal items-center`}
